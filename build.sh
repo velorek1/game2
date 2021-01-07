@@ -16,7 +16,7 @@ echo [+] Attempting to compile game...
 gcc -c list.c
 gcc -c -Wall main.c
 gcc list.o main.o  -lSDL2 -lSDL2_image -lSDL2_mixer -lSDL2_ttf -lm -Wall -o game2
-echo gcc main.c -lSDL2 -lSDL2_image -lSDL2_mixer -o asteroid
+echo gcc main.c -lSDL2 -lSDL2_image -lSDL2_mixer - -lSDL2_ttf -lm -o game2
 echo
 echo -e "Run as \e[93m./game2\e[0m" 
 echo Enjoy it!
